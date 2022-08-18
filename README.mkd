@@ -1,0 +1,49 @@
+Jogo Mega Sena
+=============
+
+### Regras do jogo:
+
+
+
+- Adicionar no máximo seis números
+
+- Não permite números repetidos
+
+- Possibilita salvar o jogo
+
+- Possibilita remover números do jogo
+
+### HTML 🧱
+
+- Criar título
+- Criar 3 div's com id's "megasena-numbers", "megasena-buttons", "megasena-saved-games"
+
+### CSS 🎨
+
+- Estilizar livremente
+
+### JavaScript: 🕹
+
+- Criar função start
+- Executar start()
+- Criar e implementar função calculateImc(weight, height)
+- Em start, obter os inputs e botão como variáveis com document.querySelector
+- Fazer com que botão calcule o IMC com addEventListener do tipo 'click'
+- Tornar o programa mais dinâmico monitorando os inputs com addEventListener
+  do tipo 'input'
+- Tornar os inputs mais amigáveis utilizando o type="number" e utilizando o 
+     atributo step
+- Criar estado da aplicação com objeto { board: [], currentGame: [], savedGames: [] }
+- Criar e invocar função start
+- Focar na implementação dos dados e só depois
+      na implementação da interface
+- Criar função createBoard e utilizar em start
+-  Criar função newGame e utilizar em start
+- Criar função render e utilizar em newGame
+- Criar função renderBoard e utilizar em render
+- Criar função renderButtons e utilizar em render-
+- Criar função renderSavedGames e utilizar em render
+- Criar função renderNewGameButton() e utilizar em renderButtons
+-  Criar função renderRandomGameButton() e utilizar em renderButtons
+-  Criar função renderSaveGameButton() e utilizar em renderButtons
+
