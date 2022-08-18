@@ -5,7 +5,18 @@ body {
 h1, h2 {
   text-align: center;
 }
-
+h4 {
+  text-align: center;
+ 
+}
+a {
+  text-decoration: none;
+  color: cadetblue;
+}
+a:hover{
+  color: darkslateblue;
+  font-weight: 900;
+}
 button {
   cursor: pointer;
 }
